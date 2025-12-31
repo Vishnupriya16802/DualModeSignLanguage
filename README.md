@@ -51,3 +51,36 @@ DualModeSignLanguage/
 
 ## 📌 Note
 Datasets and trained models are excluded from GitHub due to size limitations.
+
+## ▶️ How to Run
+
+Clone the repository:
+```bash
+git clone https://github.com/Vishnupriya16802/DualModeSignLanguage.git
+cd DualModeSignLanguage
+Create virtual environment:
+
+python -m venv venv
+venv\Scripts\activate
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Train the model:
+
+python train_isl_model.py
+
+
+Run live prediction:
+
+python predict_isl_live.py
+
+
+Commit & push:
+```bash
+git add README.md
+git commit -m "Add run instructions"
+git push
