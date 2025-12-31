@@ -1,0 +1,7 @@
+
+venv/
+wlasl/
+Indian/
+__pycache__/
+*.pyc
+*.h5
